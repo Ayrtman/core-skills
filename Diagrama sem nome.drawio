@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
+  <diagram name="Virtual Machine Architecture + Codespaces" id="VGLNAVboNQTBJ-JNNZ7w">
+    <mxGraphModel dx="1034" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GNxt3As7fZ05kGszeDXf-1" value="Applications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-2" value="Guest Operating System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-3" value="Virtual Hardware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-4" value="Hypervisor (Virtual Machine Monitor)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="710" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-5" value="Host Operating System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="820" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-6" value="Physical Hardware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="930" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-7" style="endArrow=block;rounded=0;html=1;strokeColor=#000000;" edge="1" parent="1" source="GNxt3As7fZ05kGszeDXf-1" target="GNxt3As7fZ05kGszeDXf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-8" style="endArrow=block;rounded=0;html=1;strokeColor=#000000;" edge="1" parent="1" source="GNxt3As7fZ05kGszeDXf-2" target="GNxt3As7fZ05kGszeDXf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-9" style="endArrow=block;rounded=0;html=1;strokeColor=#000000;" edge="1" parent="1" source="GNxt3As7fZ05kGszeDXf-3" target="GNxt3As7fZ05kGszeDXf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-10" style="endArrow=block;rounded=0;html=1;strokeColor=#000000;" edge="1" parent="1" source="GNxt3As7fZ05kGszeDXf-4" target="GNxt3As7fZ05kGszeDXf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-11" style="endArrow=block;rounded=0;html=1;strokeColor=#000000;" edge="1" parent="1" source="GNxt3As7fZ05kGszeDXf-5" target="GNxt3As7fZ05kGszeDXf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNxt3As7fZ05kGszeDXf-12" value="&lt;b&gt;GitHub Codespaces Overview:&lt;/b&gt;&lt;br&gt;- Runs a full development environment in the cloud.&lt;br&gt;- Uses containers or virtual machines managed by GitHub.&lt;br&gt;- Based on VS Code, accessible via browser or local VS Code.&lt;br&gt;- Each codespace has isolated CPU, RAM, and filesystem.&lt;br&gt;- The underlying infrastructure uses similar virtualization principles as above." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="550" width="350" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
